@@ -19,7 +19,7 @@
   (export start-timer stop-timer decrement-timer)
   (import (rnrs base)
           (rnrs control)
-          (srfi :39 parameters))
+          (srfi srfi-39 parameters))
 
 (define current-clock (make-parameter 0))
 (define current-handler (make-parameter #f))

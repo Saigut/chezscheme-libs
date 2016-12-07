@@ -23,7 +23,7 @@
   (import (for (rnrs base) run expand)
           (for (rnrs syntax-case) expand)
           (for (rnrs lists) run expand)
-          (for (srfi :8 receive) expand))
+          (for (srfi srfi-8 receive) expand))
 
 ;;@ Return the alist @3 extended by @code{(cons @1 @2)}.
 (define (acons key val alist)

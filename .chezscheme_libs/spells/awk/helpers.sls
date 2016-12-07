@@ -32,7 +32,7 @@
           optimize-clauses
           parse-clause)
   (import (for (rnrs) run (meta -1))
-          (for (srfi :8 receive) (meta -1))
+          (for (srfi srfi-8 receive) (meta -1))
           (for (wak irregex) (meta -1))
           (wak foof-loop)
           (spells alist)

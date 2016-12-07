@@ -11,7 +11,7 @@
   (export this-directory
           test-environment)
   (import (rnrs)
-          (srfi :39 parameters)
+          (srfi srfi-39 parameters)
           (spells pathname))
 
   (define this-directory

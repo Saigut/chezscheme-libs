@@ -31,7 +31,7 @@
           
           dlopen dlsym dlclose dlerror)
   (import (rnrs)
-          (srfi :2 and-let*)
+          (srfi srfi-2 and-let*)
           (spells foreign util)
           (spells alist)
           (core)

@@ -4,10 +4,10 @@
   (export find-exec-path
           host-info)
   (import (rnrs base)
-          (srfi :8 receive)
+          (srfi srfi-8 receive)
           (spells filesys)
           (spells string-utils)
-          (only (srfi :13 strings) string-index)
+          (only (srfi srfi-13 strings) string-index)
           (prefix (only (ikarus)
                         getenv
                         host-info)

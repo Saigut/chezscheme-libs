@@ -31,8 +31,8 @@
   (import (rnrs base)
           (rnrs io ports)
           (rnrs arithmetic bitwise)
-          (srfi :8 receive)
-          (srfi :9 records)
+          (srfi srfi-8 receive)
+          (srfi srfi-9 records)
           (spells pathname)
           (prefix (only (core primitives)
                         process-spawn

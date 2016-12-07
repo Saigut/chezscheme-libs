@@ -23,7 +23,7 @@
           let-optionals*
           :optional)
   (import (rnrs)
-          (for (srfi :8 receive) expand))
+          (for (srfi srfi-8 receive) expand))
 
 
 ;; Copyright (C) 2010, 2011 Andreas Rottmann.

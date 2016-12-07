@@ -41,9 +41,9 @@
           (only (mzlib os) getpid)
           (only (r6rs private ports)
                 r6rs-port->port)
-          (only (srfi :1) append-map)
-          (srfi :8 receive)
-          (srfi :9 records)
+          (only (srfi srfi-1) append-map)
+          (srfi srfi-8 receive)
+          (srfi srfi-9 records)
           (spells pathname))
 
   (define-record-type process

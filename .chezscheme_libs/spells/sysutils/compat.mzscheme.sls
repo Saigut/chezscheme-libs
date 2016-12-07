@@ -20,7 +20,7 @@
           host-info)
 
   (import (rnrs)
-          (srfi :98 os-environment-variables)
+          (srfi srfi-98 os-environment-variables)
           (spells pathname)
           (only (scheme base)
                 system-type

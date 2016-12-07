@@ -21,8 +21,8 @@
           record-reader
           field-reader)
   (import (rnrs)
-          (srfi :8 receive)
-          (srfi :14 char-sets)
+          (srfi srfi-8 receive)
+          (srfi srfi-14 char-sets)
           (wak irregex)
           (spells opt-args)
           (spells delimited-readers))

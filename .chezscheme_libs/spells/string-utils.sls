@@ -26,10 +26,10 @@
           (except (rnrs unicode) string-titlecase string-upcase string-downcase)
           (rnrs io simple)
           (rnrs io ports)
-          (srfi :8 receive)
-          (srfi :13 strings)
-          (srfi :14 char-sets)
-          (srfi :26 cut)
+          (srfi srfi-8 receive)
+          (srfi srfi-13 strings)
+          (srfi srfi-14 char-sets)
+          (srfi srfi-26 cut)
           (spells alist))
 
 

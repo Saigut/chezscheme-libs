@@ -19,7 +19,7 @@
           join)
   (import (rnrs base)
           (rnrs lists)
-          (only (srfi :1 lists) any)
+          (only (srfi srfi-1 lists) any)
           (spells procedure-annotations))
   
 ;; Auxiliary syntax

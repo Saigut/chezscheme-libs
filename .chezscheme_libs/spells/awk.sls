@@ -22,8 +22,8 @@
 (library (spells awk)
   (export awk)
   (import (rnrs)
-          (only (srfi :1) append-map)
-          (srfi :8 receive)
+          (only (srfi srfi-1) append-map)
+          (srfi srfi-8 receive)
           (for (spells awk helpers) run expand))
 
 ;;@defspec awk next-record (record field ...) state-vars . clauses

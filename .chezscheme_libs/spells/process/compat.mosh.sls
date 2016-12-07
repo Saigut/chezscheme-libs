@@ -17,8 +17,8 @@
   (import (rnrs base)
           (rnrs control)
           (rnrs io ports)
-          (only (srfi :1) first second)
-          (srfi :9)
+          (only (srfi srfi-1) first second)
+          (srfi srfi-9)
           (prefix (mosh process) mosh:)
           (spells pathname))
 

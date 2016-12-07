@@ -23,7 +23,7 @@
           date-down-from)
   (import
     (rnrs base)
-    (srfi :19 time)
+    (srfi srfi-19 time)
     (spells opt-args))
 
   (define *posix-epoch* (date->time-utc (make-date 0 0 0 0 1 1 1970 0)))

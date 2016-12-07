@@ -48,7 +48,7 @@
           (rnrs exceptions)
           (rnrs io ports)
           (prefix (rnrs files) rnrs:)
-          (srfi :8 receive)
+          (srfi srfi-8 receive)
           (spells pathname)
           (spells time-lib)
           (prefix (core files) yp:)

@@ -13,9 +13,9 @@
           (rnrs control)
           (rnrs bytevectors)
           (rnrs io ports)
-          (only (srfi :1) unfold)
-          (srfi :9 records)
-          (srfi :13 strings))
+          (only (srfi srfi-1) unfold)
+          (srfi srfi-9 records)
+          (srfi srfi-13 strings))
 
   (define copy-port
     (case-lambda

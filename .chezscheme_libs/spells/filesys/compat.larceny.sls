@@ -38,7 +38,7 @@
           copy-file)
   (import (rnrs base)
           (rnrs conditions)
-          (srfi :8 receive)
+          (srfi srfi-8 receive)
           (spells pathname)
           (primitives parameterize)
           (prefix (primitives file-exists?

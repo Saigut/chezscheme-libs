@@ -56,7 +56,7 @@
   (import (rnrs base)
           (rnrs control)
           (rnrs lists)
-          (srfi :9 records))
+          (srfi srfi-9 records))
 
 (define-record-type :option
   (make-option names argument optional-arg? terminator? description processor)

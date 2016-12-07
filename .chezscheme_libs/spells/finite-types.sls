@@ -23,7 +23,7 @@
           finite-type-case)
   (import (for (rnrs base) run expand)
           (for (rnrs syntax-case) expand)
-          (srfi :9 records))
+          (srfi srfi-9 records))
 
 ;;@subheading Introduction
 

@@ -24,7 +24,7 @@
     vector-equal-range
     )
   (import (rnrs)
-          (srfi :67 compare-procedures))
+          (srfi srfi-67 compare-procedures))
 
 (define (make-array-binary-search array-ref array-length)
   (define binary-search

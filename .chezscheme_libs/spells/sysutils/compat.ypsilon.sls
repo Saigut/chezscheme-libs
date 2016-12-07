@@ -20,7 +20,7 @@
           host-info)
   (import (rnrs base)
           (rnrs records syntactic)
-          (srfi :8 receive)
+          (srfi srfi-8 receive)
           (spells string-utils)
           (spells filesys)
           (only (core)

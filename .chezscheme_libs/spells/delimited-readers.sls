@@ -24,9 +24,9 @@
 	  skip-char-set)
   (import (except (rnrs base) error string-copy string-for-each string->list)
           (rnrs io ports)
-          (srfi :8 receive)
-          (srfi :13 strings)
-          (srfi :14 char-sets)
+          (srfi srfi-8 receive)
+          (srfi srfi-13 strings)
+          (srfi srfi-14 char-sets)
           (spells error)
           (spells opt-args))
 

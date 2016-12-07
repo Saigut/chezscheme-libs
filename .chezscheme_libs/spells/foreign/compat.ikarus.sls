@@ -36,7 +36,7 @@
           (rnrs arithmetic bitwise)
           (rnrs lists)
           (rnrs bytevectors)
-          (srfi :2 and-let*)
+          (srfi srfi-2 and-let*)
           (spells alist)
           (spells foreign util)
           (ikarus foreign))

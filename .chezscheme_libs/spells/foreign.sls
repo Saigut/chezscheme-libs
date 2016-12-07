@@ -77,8 +77,8 @@
 
           define-c-callouts)
   (import (rnrs)
-          (for (srfi :8 receive) run expand)
-          (for (only (srfi :1) append-reverse) expand)
+          (for (srfi srfi-8 receive) run expand)
+          (for (only (srfi srfi-1) append-reverse) expand)
           (for (wak foof-loop) expand)
           (spells foreign compat)
           (spells foreign frozen-bytes)

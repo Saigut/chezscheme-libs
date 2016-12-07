@@ -10,7 +10,7 @@
           host-info)
   (import (rnrs base)
           (rnrs lists)
-          (srfi :98 os-environment-variables)
+          (srfi srfi-98 os-environment-variables)
           (spells sysutils compat))
 
   (define lookup-environment-variable get-environment-variable)

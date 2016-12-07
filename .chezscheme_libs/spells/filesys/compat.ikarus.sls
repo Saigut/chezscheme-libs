@@ -42,8 +42,8 @@
 
           library-search-paths)
   (import (except (rnrs) file-exists? delete-file)
-          (only (srfi :13) string-prefix?) ;for exception kludge
-          (srfi :8 receive)
+          (only (srfi srfi-13) string-prefix?) ;for exception kludge
+          (srfi srfi-8 receive)
           (spells pathname)
           (spells time-lib)
           (prefix (ikarus) ik:))

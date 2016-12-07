@@ -38,8 +38,8 @@
                         wstatus-received-signal
                         system)
                   ik:)
-          (srfi :8 receive)
-          (srfi :9 records)
+          (srfi srfi-8 receive)
+          (srfi srfi-9 records)
           (spells ports)
           (spells pathname))
 

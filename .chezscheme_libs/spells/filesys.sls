@@ -70,15 +70,15 @@
           find-file
           library-search-paths)
   (import (except (rnrs) delete-file file-exists?)
-          (only (srfi :1 lists) fold)
-          (srfi :8 receive)
-          (srfi :19 time)
-          (only (srfi :13)
+          (only (srfi srfi-1 lists) fold)
+          (srfi srfi-8 receive)
+          (srfi srfi-19 time)
+          (only (srfi srfi-13)
                 string-concatenate
                 string-contains
                 string-unfold)
-          (srfi :27)
-          (srfi :98 os-environment-variables)
+          (srfi srfi-27)
+          (srfi srfi-98 os-environment-variables)
           (only (spells process) get-process-id)
           (spells string-utils)
           (spells pathname)

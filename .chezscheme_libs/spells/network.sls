@@ -32,7 +32,7 @@
           open-tcp-connection
           open-tcp-listener)
   (import (rnrs)
-          (srfi :8 receive)
+          (srfi srfi-8 receive)
           (spells network compat))
 
 ;;;@subsection Connections

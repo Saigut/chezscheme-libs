@@ -33,8 +33,8 @@
           (rnrs io ports)
           (rnrs lists)
           (rnrs arithmetic bitwise)
-          (srfi :8 receive)
-          (srfi :9 records)
+          (srfi srfi-8 receive)
+          (srfi srfi-9 records)
           (spells pathname)
           (prefix (only (guile)
                         execle

@@ -37,8 +37,8 @@
   (import (except (rnrs base) error)
           (rnrs control)
           (rnrs arithmetic bitwise)
-          (srfi :8 receive)
-          (srfi :9 records)
+          (srfi srfi-8 receive)
+          (srfi srfi-9 records)
           (spells include)
           (only (spells error) make-error-signaller))
 

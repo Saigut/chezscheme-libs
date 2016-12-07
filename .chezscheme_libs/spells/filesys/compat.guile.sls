@@ -49,7 +49,7 @@
           (rnrs io ports)
           (rnrs control)
           (prefix (rnrs files) rnrs:)
-          (srfi :8 receive)
+          (srfi srfi-8 receive)
           (spells pathname)
           (spells time-lib)
           (prefix (guile) guile:))
