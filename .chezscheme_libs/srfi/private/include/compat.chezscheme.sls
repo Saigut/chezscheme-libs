@@ -15,15 +15,16 @@
 ;;; PERFORMANCE OF THIS SOFTWARE.
 
 (library (srfi private include compat)
-	 (export
-	  search-paths)
-	 (import
-	  (only (chezscheme) library-directories))
+  (export
+   search-paths)
+  (import
+   (rnrs base)
+   (only (chezscheme) library-directories))
 
-	 (define (search-paths)
-	   (let loop ([pp (library-directories)])
-	     (if (null? pp)
-		 '()
-		 (cons (caar pp) (loop (cdr pp))))))
+  (define (search-paths)
+    (let loop ([pp (library-directories)])
+      (if (null? pp)
+	  '()
+	  (cons (caar pp) (loop (cdr pp))))))
 
 )
